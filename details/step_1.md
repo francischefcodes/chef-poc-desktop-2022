@@ -51,7 +51,7 @@ sudo ./chef-automate deploy config.toml --product automate --product chef-server
   
 if you require Habitat On Premise Builder, then use this command
 ```bash
-sudo ./chef-automate deploy config.toml --product automate --product chef-server --product builder --accept-terms-and-mlsa
+sudo ./chef-automate deploy config.toml --product automate --product infra-server --product desktop --product builder --accept-terms-and-mlsa
 ```
   
 Deployment takes a few minutes. The first step is accepting the terms of service in the command line, after which the installer performs a series of pre-flight checks; any unsuccessful checks have information for resolving issues or skipping the check. Run the deploy command again, after resolving any pre-flight issues.
