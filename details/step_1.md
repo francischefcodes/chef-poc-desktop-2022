@@ -46,7 +46,7 @@ You can customize your FQDN, login name, and other values, by changing the value
 #### 1.2.4 Deploy Chef Automate and Chef Server
 The following command will deploy Chef Automate and Chef Server
 ```bash
-sudo ./chef-automate deploy config.toml --product automate --product chef-server --accept-terms-and-mlsa
+sudo ./chef-automate deploy config.toml --product automate --product infra-server --product desktop --accept-terms-and-mlsa
 ```
   
 if you require Habitat On Premise Builder, then use this command
